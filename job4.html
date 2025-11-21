@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>亲子故事会 · Kids Story Time 招新</title>
+    <style>
+        .page {
+            display: inline-block;
+            background-color: #FCE9C9;
+            box-shadow: 0 0 30px rgba(80, 58, 35, 0.25);
+            text-align: left;
+            max-width: 720px;
+                   }
+        /* 并集选择器 */
+        h1, h2, h3, h4, h5, h6 {
+            color: #8B5A2B;
+            font-family: "Arial Rounded MT Bold", sans-serif;
+            margin-bottom: 15px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            margin-top: 0;
+        }
+        h2 {
+            font-size: 24px;
+            border-left: 4px solid #8B5A2B;
+            padding-left: 10px;
+        }
+        h3 {
+            font-size: 20px;
+            margin-top: 25px;
+        }
+        /* 伪元素 */
+        p::first-letter {
+            font-size: 1.8em;
+            color: #DAA520;
+            font-weight: bold;
+        }
+        div::first-line {
+            line-height: 1.8;
+        }
+        /* ID选择器 */
+        p#intro {
+            font-size: 18px;
+            font-weight: bold;
+            color: #CD5C5C;
+            background-color: #FFF8E1;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        /* 后代选择器 */
+        div table a {
+            color: #4169E1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /* 链接伪类 */
+        a:link {
+            color: #4169E1;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #9370DB;
+        }
+        a:hover {
+            color: #FF6347;
+            text-decoration: underline;
+        }
+        a:active {
+            color: #FF4500;
+        }
+        /* 带类名的链接 */
+        a.red {
+            color: #FF4500;
+            font-size: 16px;
+            margin-right: 20px;
+        }
+        a.blue {
+            color: #1E90FF;
+            font-size: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #D2B48C;
+            padding: 12px;
+            text-align: center;
+            font-size: 14px;
+        }
+        th {
+            background-color: #F5DEB3;
+            font-weight: bold;
+        }
+        .notice {
+            background-color: #FFF8DC;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 25px;
+        }
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+            color: #3A2F28;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- 顶部标题区 -->
+        <div>
+            <h1>亲子故事会 · Kids Story Time 招新啦！</h1>
+        </div>
+
+        <!-- 活动介绍区 -->
+        <div>
+            <h2 id="intro">活动介绍</h2>
+            <p>这里是充满欢笑与温暖的亲子天地，爸爸妈妈和宝贝们将一起走进奇妙的故事世界。我们会分享温馨的绘本、有趣的童话，还有互动小游戏等着大家哦！</p>
+            <p>每个周末，让故事成为亲子间最甜的纽带。宝贝们可以认识新朋友，锻炼表达能力，爸爸妈妈也能在陪伴中见证孩子的成长，留下美好的亲子回忆～</p>
+            <p>无论是勇敢的小公主、调皮的小恐龙，还是神奇的魔法森林，都能在这里找到踪迹。让我们一起用故事浇灌孩子的想象力，让童年充满色彩！</p>
+            <p id="intro">重要提示：参加活动请提前报名，每场活动限20组家庭，报满即止～ 记得带好宝贝喜欢的小坐垫，让听讲更舒适呀！</p>
+        </div>
+
+        <!-- 活动报名信息表格区 -->
+        <div>
+            <h3>报名信息登记表</h3>
+            <table>
+                <tr>
+                    <th>家长姓名</th>
+                    <th>宝贝昵称</th>
+                    <th>宝贝年龄</th>
+                    <th>联系电话</th>
+                    <th>报名场次</th>
+                </tr>
+                <tr>
+                    <td>李女士</td>
+                    <td>多多</td>
+                    <td>4岁</td>
+                    <td>138****5678</td>
+                    <td>周六上午场</td>
+                </tr>
+                <tr>
+                    <td>张先生</td>
+                    <td>球球</td>
+                    <td>5岁</td>
+                    <td>139****9012</td>
+                    <td>周日下午场</td>
+                </tr>
+                <tr>
+                    <td>王女士</td>
+                    <td>朵朵</td>
+                    <td>3岁</td>
+                    <td>137****3456</td>
+                    <td>周六上午场</td>
+                </tr>
+                <tr>
+                    <td>刘先生</td>
+                    <td>天天</td>
+                    <td>6岁</td>
+                    <td>136****7890</td>
+                    <td>周日下午场</td>
+                </tr>
+                <tr>
+                    <td>陈女士</td>
+                    <td>糖糖</td>
+                    <td>4岁</td>
+                    <td>135****2345</td>
+                    <td>周六上午场</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- 页面链接区 -->
+        <div>
+            <div>
+                <a href="https://hongchenwusdnu.github.io/bookstore/job4.html" class="red">查看往期活动照片</a>
+                <a href="job3.html" class="blue">在线咨询活动详情</a>
+            </div>
+        </div>
+
+        <!-- 底部公告区 -->
+        <div class="notice">
+            <p>公告1：活动时间为每周六上午10:00-11:30、周日下午2:30-4:00，请提前15分钟到场签到～<br>无故缺席2次以上将影响后续报名资格哦！</p>
+            <p>公告2：活动地点在市少儿图书馆3楼亲子活动室，可乘坐3路、12路公交车到图书馆站下车，步行5分钟即可到达～<br>现场提供饮用水和小点心，宝贝如有过敏食物请提前告知工作人员！</p>
+            <p>公告3：本活动为公益性质，不收取任何费用，欢迎大家邀请身边有小朋友的家庭一起参加～<br>如有活动调整，我们会提前3天通过短信通知报名家长，请保持电话畅通！</p>
+        </div>
+    </div>
+</body>
+</html>
